@@ -24,3 +24,7 @@ This is a simple guide to install stock(ish) android tv firmware to NetTv device
 
 ![Screenshot from 2019-10-01 19-30-52](https://user-images.githubusercontent.com/43197293/65968537-0ce9ac00-e483-11e9-9c01-7d9d746ca94f.png)
 1. Remove phillips screw hidden under four soft pads.
+
+![IMG_20190815_114509__01](https://user-images.githubusercontent.com/43197293/66922432-cc735c00-f046-11e9-94fe-32286bb61841.jpg)
+
+2. Note the device model number. In the above image the device is using Amlogic S905X. Your device name may vary, in case of different name X, search model X in google and its specs, chipset.
