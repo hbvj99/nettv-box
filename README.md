@@ -35,7 +35,7 @@ The below procedure can also be applied to fix any bricked device. You may requi
 
 4. Change language on USB burning tool by nagivating to top right second tab, click and choose english language. Load the fimrware image file by clicking file>import image. The tool will verify the file and click START when completed. In the configuration, choose normal erase and erase bootloader option. <b>Please find the correct fimrware image to continue. The file extension should be .IMG</b>
 
-3. Hold device reset button for few seconds (7) which is usually located behind SPDIF port or sometimes AV port. Use toothpick to hold reset pin and connect Type A male connector from your devie USB port (use bootable USB port) to your PC USB port. Plug the power cord to the device.
+3. Hold device reset button for few seconds (7) which is usually located behind SPDIF port or sometimes AV port. Use toothpick to hold reset pin and connect Type A male connector from your device USB port (use bootable USB port) to your PC USB port. Plug the power cord to the device.
 
 4. Once the device is detected on USB burning tool, the device ID is shown and the flashing procedure will continue.
 
