@@ -31,7 +31,7 @@ The below procedure can also be applied to fix any bricked device. You may requi
 
 2. Note the device model number. In the above image the device is using Amlogic S905X. Your device name may vary, in case of different name X, search model X in google and its specs or chipset.
 
-![amlogic-usb-burning-tool-2170-n02](https://user-images.githubusercontent.com/43197293/67305136-9c2f3000-f514-11e9-8234-598d11677650.jpg)
+![usb](https://user-images.githubusercontent.com/43197293/67307640-858ad800-f518-11e9-8744-b66b5f14a983.png)
 
 4. Change language on USB burning tool by nagivating to top right second tab, click and choose english language. Load the fimrware image file by clicking file>import image. The tool will verify the file and click START when completed. In the configuration, choose normal erase and erase bootloader option. <b>Please find the correct fimrware image to continue. The file extension should be .IMG</b>
 
