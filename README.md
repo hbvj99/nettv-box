@@ -56,5 +56,5 @@ The below procedure can also be applied to fix any bricked device. You may requi
 
 ## Contribution
 
-You can modify the content, optimize the guide by sending pull requests.
+You can modify the content, optimize the guide by sending pull requests <a href="https://github.com/hbvj99/nettv-box/pulls">here</a>.
 
