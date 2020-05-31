@@ -58,3 +58,6 @@ The below procedure can also be applied to fix any bricked device. You may requi
 
 You can modify the content, optimize the guide by sending pull requests <a href="https://github.com/hbvj99/nettv-box/pulls">here</a>.
 
+# Updated guide
+view updated guide at https://vijaypathak.com.np/2019/11/nettv-box-hack.html
+
