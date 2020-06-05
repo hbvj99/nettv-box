@@ -1,20 +1,21 @@
 # NetTv IPTV box easy hack 
 
-This is a simple guide to install stock(ish) android tv firmware to NetTv devices. You will be able to use the android platform into your televison after sucessfully flashing the <b>proper</b> firmware. NetTv interface is basically a custom or limited software that runs on the top of any Android TV Box. It requires device disassemble to find the correct model number.
+This is a simple guide to install stock(ish) android tv firmware to NetTv devices. You will be able to use the android platform into your televison after sucessfully flashing the <b>proper</b> firmware. NetTv interface is basically a custom or limited software that runs on the top of any Android TV OS skin Box. It requires device disassemble to find the correct model number.
 
 The below procedure can also be applied to fix any bricked device. You may require to short NAND pins if your device won't boot. Most of the firmwares are available pre-rooted.
 
-<b>Disclaimer: This is a non-proper guide to install android tv firmware to your NetTv box. It is soley done for educational purposes. I'm not responsible for any physical damage or bricking of your devices that you might encounter. Please proceed on your own risk. thank you
+> <b>Disclaimer: This is a non-proper guide to install android tv firmware to your NetTv box. It is soley done for educational purposes. I'm not responsible for any physical damage or bricking of your devices that you might encounter. Please proceed on your own risk. thank you
 </b>
 
-<hr>
+View updated guide in a [blog](https://vijaypathak.com.np/2019/11/nettv-box-hack.html)
+
+# Method 1 : Custom Firmware
 
 ## How it works?
 - Understand your device model number, chipset, specs
 - Download correct firmware
 - Understand the flashing procedure
 - Install Android
-
 
 ## Requirement
 - USB 2.0 Type A Male to Male connector
@@ -25,23 +26,24 @@ The below procedure can also be applied to fix any bricked device. You may requi
 ## Procedure (for Vianet Amlogic S905X)
 
 ![Screenshot from 2019-10-01 19-30-52](https://user-images.githubusercontent.com/43197293/65968537-0ce9ac00-e483-11e9-9c01-7d9d746ca94f.png)
-1. Remove phillips screw hidden under four soft pads.
+
+1 Remove phillips screw hidden under four soft pads.
 
 ![IMG_20190815_114509__01](https://user-images.githubusercontent.com/43197293/66922432-cc735c00-f046-11e9-94fe-32286bb61841.jpg)
 
-2. Note the device model number. In the above image the device is using Amlogic S905X. Your device name may vary, in case of different name X, search model X in google and its specs or chipset.
+2 Note the device model number. In the above image the device is using Amlogic S905X. Your device name may vary, in case of different name X, search model X in google and its specs or chipset.
 
 ![usb](https://user-images.githubusercontent.com/43197293/67307640-858ad800-f518-11e9-8744-b66b5f14a983.png)
 
-3. Change language on USB burning tool by nagivating to top right second tab, click and choose english language. Load the fimrware image file by clicking file>import image. The tool will verify the file and click START when completed. In the configuration, choose normal erase and erase bootloader option. <b>Please find the correct fimrware image to continue. The file extension should be .IMG</b>
+3 Change language on USB burning tool by nagivating to top right second tab, click and choose english language. Load the fimrware image file by clicking file>import image. The tool will verify the file and click START when completed. In the configuration, choose normal erase and erase bootloader option. <b>Please find the correct fimrware image to continue. The file extension should be .IMG</b>
 
-4. Hold device reset button for few seconds (7) which is usually located behind SPDIF port or sometimes AV port. Use toothpick to hold reset pin and connect Type A male connector from your device USB port (use bootable USB port) to your PC USB port. Plug the power cord to the device.
+4 Hold device reset button for few seconds (7) which is usually located behind SPDIF port or sometimes AV port. Use toothpick to hold reset pin and connect Type A male connector from your device USB port (use bootable USB port) to your PC USB port. Plug the power cord to the device.
 
-5. Once the device is detected on USB burning tool, the device ID is shown and the flashing procedure will continue.
+5 Once the device is detected on USB burning tool, the device ID is shown and the flashing procedure will continue.
 
-6. Wait for flashing or download system procedire to 100% and burned successfully text is shown (this might usually take 3 to 5 minutes).
+6 Wait for flashing or download system procedire to 100% and burned successfully text is shown (this might usually take 3 to 5 minutes).
 
-7. The firmware update is completed. The device may take few minutes to start fresh new boot in Android TV platform.
+7 The firmware update is completed. The device may take few minutes to start fresh new boot in Android TV platform.
 
 <hr>
 
@@ -54,10 +56,39 @@ The below procedure can also be applied to fix any bricked device. You may requi
 ![IMG_20190815_143933-01](https://user-images.githubusercontent.com/43197293/67455261-d8fe4280-f64c-11e9-90a0-2e26dff3d147.jpeg)
 ![IMG_20190815_144527-01](https://user-images.githubusercontent.com/43197293/67455263-d8fe4280-f64c-11e9-8720-1433ebc6f303.jpeg)
 
+
+# Method 2: Install on the top of offical NetTv
+
+## Process
+
+[Method 1](#method-1--custom-firmware) is fairly limited and you need to disassemble your device before proceeding, mostly it's done for testing purposes since your official NetTv services won't work after.
+
+This is the solid alternative, let me explain. We are going to bypass and access the hidden [Google play store](https://play.google.com/) to install other Android apps. This is relatively easy and we aren't modifying firmware this time so we can install updates from ISPs in future without a problem. 
+
+> We can do this because NeTv devices are simply an Android TV OS skin limited by third party software and we are going to bypass this.
+
+Steps to follow;
+1. First, grab the USB mouse and keyboard and attach both to the device backside USB ports. Disconnect the LAN Ethernet port from the device and connect to your wifi by navigating to net tv settings>network.
+2. Next, press Win(Windows logo key)+b from the keyboard, a browser will appear.
+3. Goto ```https://play.google.com/store/apps``` in browser URL and try to install an app, you will be redirected to Google sign-in page.
+4. After signing, install a [tv launcher](https://play.google.com/store/apps/details?id=ca.dstudio.atvlauncher.free) from play store, after installing press home key from remote and select the new launcher as default.
+5. Make sure you download some apps externally from the browser (we're going to download youtube for android tv app since it is incompatible in play store), the default storage location is internal>Download.
+6. Now you can open play store app and install various apps as you may like, but as I have noticed some firmware versions have disabled installing external apps from storage. We're going to enable this since most of the devices come pre-rooted.
+7. We're going to install a [terminal](https://play.google.com/store/apps/details?id=jackpal.androidterm) from play store first and open.
+8. Next, enable superuser by typing ```su``` as a command.
+9. We are going to enable unknown source apps by typing command ```settings put global install_non_market_apps 1``` This is important for users who cannot access Android settings and manually enable.
+10. Install apps by typing command: ```pm install /storage/emulated/0/Download/your_app_name.apk``` Follow this command to install different apps.
+
+### Image
+
+![IMG_20200603_181154__01](https://user-images.githubusercontent.com/43197293/83907736-a5a89800-a785-11ea-8cbf-7a5f5ec4e26d.jpg)
+
+> Note, you need to connect LAN Ethernet port to access official Live TV. Likewise, remove LAN Ethernet port and connect through wifi to run apps that required active internet connection.
+
+That's it. Your apps will now be available in launcher apps. Please feel free to comment down below if you have any questions?
+
+
 ## Contribution
 
 You can modify the content, optimize the guide by sending pull requests <a href="https://github.com/hbvj99/nettv-box/pulls">here</a>.
-
-# Updated guide
-view updated guide at https://vijaypathak.com.np/2019/11/nettv-box-hack.html
 
