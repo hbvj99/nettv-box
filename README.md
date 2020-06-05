@@ -25,13 +25,13 @@ View updated guide in a [blog](https://vijaypathak.com.np/2019/11/nettv-box-hack
 
 ## Procedure (for Vianet Amlogic S905X)
 
-![Screenshot from 2019-10-01 19-30-52](https://user-images.githubusercontent.com/43197293/65968537-0ce9ac00-e483-11e9-9c01-7d9d746ca94f.png)
-
 1. Remove Phillips screw hidden under four soft pads.
 
-![IMG_20190815_114509__01](https://user-images.githubusercontent.com/43197293/66922432-cc735c00-f046-11e9-94fe-32286bb61841.jpg)
+![Screenshot from 2019-10-01 19-30-52](https://user-images.githubusercontent.com/43197293/65968537-0ce9ac00-e483-11e9-9c01-7d9d746ca94f.png)
 
-2. Note the device model number. In the above image, the device is using Amlogic S905X. Your device name may vary, in case of different name X, search model X in google and its specs or chipset.
+2. Note the device model number. In the below image, the device is using Amlogic S905X. Your device name may vary, in case of different name X, search model X in google and its specs or chipset.
+
+![IMG_20190815_114509__01](https://user-images.githubusercontent.com/43197293/66922432-cc735c00-f046-11e9-94fe-32286bb61841.jpg)
 
 ![usb](https://user-images.githubusercontent.com/43197293/67307640-858ad800-f518-11e9-8744-b66b5f14a983.png)
 
