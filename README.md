@@ -31,7 +31,7 @@ View updated guide in a [blog](https://vijaypathak.com.np/2019/11/nettv-box-hack
 
 (2). Note the device model number. In the below image, the device is using Amlogic S905X. Your device name may vary, in case of different name X, search model X in google and its specs or chipset.
 
-![IMG_20190815_114509__01](https://user-images.githubusercontent.com/43197293/66922432-cc735c00-f046-11e9-94fe-32286bb61841.jpg)
+![IMG_20190815_114509__01](https://github.com/hbvj99/nettv-box/assets/43197293/fcc68e71-e6c2-4bae-83fa-10b3b20dfe99)
 
 ![usb](https://user-images.githubusercontent.com/43197293/67307640-858ad800-f518-11e9-8744-b66b5f14a983.png)
 
@@ -50,11 +50,11 @@ View updated guide in a [blog](https://vijaypathak.com.np/2019/11/nettv-box-hack
 ## Images after fresh install
 
 ![IMG_20190815_132345-01](https://user-images.githubusercontent.com/43197293/67455257-d7cd1580-f64c-11e9-8702-e0ad8d79a925.jpeg)
-![IMG_20190815_132430-01](https://user-images.githubusercontent.com/43197293/67455258-d7cd1580-f64c-11e9-8341-73aabab508f5.jpeg)
-![IMG_20190815_132921-01](https://user-images.githubusercontent.com/43197293/67455259-d865ac00-f64c-11e9-8707-d4697a377c04.jpeg)
-![IMG_20190815_143723-01](https://user-images.githubusercontent.com/43197293/67455260-d865ac00-f64c-11e9-97fe-28fb19f8025c.jpeg)
-![IMG_20190815_143933-01](https://user-images.githubusercontent.com/43197293/67455261-d8fe4280-f64c-11e9-90a0-2e26dff3d147.jpeg)
-![IMG_20190815_144527-01](https://user-images.githubusercontent.com/43197293/67455263-d8fe4280-f64c-11e9-8720-1433ebc6f303.jpeg)
+![IMG_20190815_132430-01](https://github.com/hbvj99/nettv-box/assets/43197293/21183cb9-9d4b-4045-a57b-18fe792ad226)
+![IMG_20190815_132921-01](https://github.com/hbvj99/nettv-box/assets/43197293/9eda18c1-11c5-4eea-b652-5c21e417e0dc)
+![IMG_20190815_143723-01](https://github.com/hbvj99/nettv-box/assets/43197293/8a7080c7-1fb8-4680-815c-3617b1edf0f0)
+![IMG_20190815_143933-01](https://github.com/hbvj99/nettv-box/assets/43197293/15e88c60-c990-46de-bb17-75ceea9c0412)
+![IMG_20190815_144527-01](https://github.com/hbvj99/nettv-box/assets/43197293/6664c6d8-e534-4f89-84d7-4b25ec8ec9a2)
 
 
 # Method 2: Install on the top of offical NetTv
@@ -83,7 +83,7 @@ Steps to follow;
 
 ### Image
 
-![IMG_20200603_181154__01](https://user-images.githubusercontent.com/43197293/83907736-a5a89800-a785-11ea-8cbf-7a5f5ec4e26d.jpg)
+![IMG_20200603_181154__01](https://github.com/hbvj99/nettv-box/assets/43197293/9e6a7222-32f3-4ede-bf29-1b5467cbd9c2)
 
 > Note, you need to connect LAN Ethernet port to access official Live TV. Likewise, remove LAN Ethernet port and connect through wifi to run apps that require active internet connection.
 
